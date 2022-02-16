@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" >
 <b:skin>
 </b:skin>
