@@ -43,7 +43,7 @@
         if(!getParameterByName('id') || getParameterByName('ib')){
           var eid = prompt('Enter Drive Video ID :- ');
           embed = `
-<iframe width="560" height="315" 
+<iframe width="100%" height="100%" 
 scrolling="no"
 src="${location.href}?id=${eid}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
@@ -63,7 +63,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 
 function getembed(){
             var code = `
-<iframe width="560" height="315" 
+<iframe width="100%" height="100%" 
 scrolling="no"
 src="${location.href}?id=${video}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
